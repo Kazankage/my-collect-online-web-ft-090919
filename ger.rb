@@ -9,4 +9,4 @@ def my_collect(array)
   new_array
 end
 binding.pry
-my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) do |name| name.split(" ").first end
+my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) do |name| name.upcase end 
