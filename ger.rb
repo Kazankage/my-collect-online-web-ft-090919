@@ -3,6 +3,7 @@ def my_collect(array)
   while i < array.length 
   yield(array[i])
   i += 1
+  end
 end
 
 my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) do |name| name.split(" ").first end
